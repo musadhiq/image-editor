@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slider{
+    -webkit-appearance: none;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #838383;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #838383;
+    background-color: #FEFEFE;
+    cursor: pointer;
+}
